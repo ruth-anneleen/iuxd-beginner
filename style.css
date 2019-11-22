@@ -1,0 +1,36 @@
+.header {
+    background-color: #595959;
+}
+
+.header-title {
+    text-align: center;
+    padding-top: 180px;
+    color: #ffffff;
+}
+
+.video {
+    background-color: #595959;
+}
+
+.video-text {
+    text-align: center;
+    padding-top: 185px;
+    color: #ffffff;
+}
+
+.nav-item {
+    color: #595959
+    
+}
+
+.broodtekst {
+    width: 700px;   
+}
+
+.image {
+    background-color: #595959;
+}
+
+.tools {
+    background-color: #595959;
+}
