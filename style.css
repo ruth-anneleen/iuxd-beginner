@@ -39,8 +39,14 @@
     
 }
 
+.title {
+    text-align: center;
+    color: #1B63FB;
+}
+
 .broodtekst {
-    width: 700px;   
+    width: 700px;  
+    text-align: center; 
 }
 
 .image {
@@ -53,4 +59,30 @@
 
 .basics {
     padding-top:20px;
+}
+
+.quote {
+    text-align: center;
+    color: #ffffff;
+    background-color: #1B63FB;
+    padding: 150px;
+    max-width: 100%;
+}
+
+.broodtekst_principes {
+    background-color: #555555;
+}
+
+.carousel-item {
+    background-color: #c9c9c9;
+}
+
+.carousel-inner {
+    align-content: center;
+}
+
+.text-block {
+    background-color: #1B63FB;
+    padding: 60px;
+    color: #ffffff;
 }
