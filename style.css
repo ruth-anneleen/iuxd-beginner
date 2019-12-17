@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: block;
 }
@@ -26,12 +31,14 @@
 
 .video {
     background-color: #c9c9c9;
+    padding: 20px
 }
 
 .video-text {
     text-align: center;
-    padding-top: 185px;
+    padding: 40px;
     color: #ffffff;
+    background-color: #c9c9c9;
 }
 
 .nav-item {
@@ -45,12 +52,13 @@
 }
 
 .broodtekst {
-    width: 700px;  
     text-align: center; 
 }
 
-.image {
+.icon {
     background-color: #c9c9c9;
+    padding: 40px;
+   
 }
 
 .tools {
@@ -65,12 +73,15 @@
     text-align: center;
     color: #ffffff;
     background-color: #1B63FB;
+    width: 120%;
     padding: 150px;
     max-width: 100%;
+    transform: skewY(-2deg);
 }
 
 .broodtekst_principes {
     background-color: #555555;
+    padding: 40px;
 }
 
 .carousel-item {
