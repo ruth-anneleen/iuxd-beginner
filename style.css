@@ -2,16 +2,23 @@
 
 .h5 {
     margin-bottom: 1.5rem !important;
+    font-family: 'Poppins', sans-serif;
 }
+
+.container-fluid {
+    padding: 0px !important;
+    background-color: #f7f7f7;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
 .overlay {
     position: absolute;
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-}
-
-.names {
-    text-align: center;
 }
 
 .artikel {
@@ -25,14 +32,19 @@
     display: inline;
     margin-left: 36%;
 }
+
 .header-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #FB9467;
-    font-size: 70px;
+    font-size: 75px;
     line-height: normal;
     padding: 40px;
+}
+
+.names {
+    text-align: center;
 }
 
 .by {
@@ -46,9 +58,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.container-fluid {
-    padding: 0px !important;
-    background-color: #f7f7f7;
+.padding {
+    padding: 0% 15%;
+}
+
+.nav {
+    margin-bottom: 90px;
+    padding-top: 40px;
 }
 
 .title {
@@ -65,37 +81,34 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
-    line-height: 190%;
     margin-left: 50px;
-}
-
-.size {
-    height: auto;
-    max-width: 100%;
-}
-
-.principes-text {
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    line-height: 30px;
-}
-
-.nav-item {
-    color: #595959   
 }
 
 .afbeelding {
     background-color: #ffffff;
     padding: 100px;   
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
-.tools {
-    background-color: #c9c9c9;
+.afbeelding-rechts {
+    background-color: #ffffff;
+    padding: 112px 100px;
+    margin-top: 30px;
 }
 
-.basics {
-    padding-top:20px;
+.icons {
+    padding: 30px;
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.motion-design-text {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+
 }
 
 .quote {
@@ -117,9 +130,22 @@
     margin-right: 30px;
 }
 
-.broodtekst_principes {
-    background-color: #555555;
-    padding: 40px;
+.size {
+    height: auto;
+    max-width: 100%;
+}
+
+.center {
+    vertical-align: middle;
+    padding: 80px;
+}
+
+.principes-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
 }
 
 .carousel-inner {
@@ -132,17 +158,10 @@
     padding: 60px;
     color: #ffffff;
     float: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 .background {
     padding: 0 0 75px 0px !important;
-}
-
-.padding {
-    padding: 0% 15%;
-}
-
-.center {
-    vertical-align: middle;
-    padding: 80px;
 }
