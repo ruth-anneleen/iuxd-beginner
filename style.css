@@ -1,26 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet');
 
-.header-image {
-    display: table;
-    width: 100%;
-    height: 65vh;
-    padding: 0;
-    background: url(img/gray-double-bell-clock-1037993.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.header {
-    display: block;
-}
-
 .overlay {
-    padding: 8%;
-    float: right;
-    width: 50%;
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -60%);
 }
 
 .artikel {
@@ -29,13 +13,14 @@
     padding: 15px 35px 15px 35px;
     text-align: center;
     color: #4A4A4A;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     display: inline;
 }
 
 .header-title {
-    font-family: 'Poppins';
-    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-align: center;
     color: #FB9467;
     font-size: 70px;
@@ -46,65 +31,43 @@
 .by {
     color: #A4A4A4;
     padding-right: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text-color {
     color: #4A4A4A;
+    font-family: 'Poppins', sans-serif;
 }
-
-
 
 
 
 .container-fluid {
-    background-color: #F7F7F7;
-}
-
-.section {
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 6vw;
-}
-
-.leftside,
-.rightside {
-    height: 25vh;
-    width: 100%;
-}
-
-.section-4 .leftside {
-    position: relative;
-    padding-left: 18vh;
-    margin-top: 30px;
-}
-
-.section-4 .rightside {
-    position: relative;
-    padding-right: 18vh;
-    background: url() no-repeat center center;
+    padding: 0px !important;
 }
 
 .title {
     color: #FB9467;
     text-align: left;
-    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
 }
 
 .broodtekst {
     text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 190%;
 }
 
 .size {
     height: auto;
     max-width: 100%;
-    position: relative;
 }
 
 .principes-text {
+    font-family: 'Poppins', sans-serif;
     text-align: left;
-    margin: 0px auto 0px auto;
-    vertical-align: middle;
 }
 
 .nav-item {
@@ -127,11 +90,12 @@
 .quote {
     text-align: center;
     color: #ffffff;
-    background-color: #FB9467;
-    width: 120%;
-    padding: 150px;
+    padding: 0px;
     max-width: 100%;
-    transform: skewY(-2deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .vl1 {
@@ -139,6 +103,7 @@
     border-color: #FB9467;
     height: 100px;
     position: absolute;
+    margin-right: 30px;
 }
 
 .broodtekst_principes {
@@ -146,12 +111,9 @@
     padding: 40px;
 }
 
-.carousel-item {
-    background-color: #c9c9c9;
-}
-
 .carousel-inner {
     align-content: center;
+    background-color: #4A4A4A;
 }
 
 .text-block {
@@ -159,4 +121,16 @@
     padding: 60px;
     color: #ffffff;
     float: right;
+}
+
+.background {
+    padding: 0 0 75px 0px;
+}
+
+.padding {
+    padding: 0% 15%;
+}
+
+.center {
+    vertical-align: middle;
 }
