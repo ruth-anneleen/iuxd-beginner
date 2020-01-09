@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet');
 
+.h5 {
+    margin-bottom: 1.5rem !important;
+}
 .overlay {
     position: absolute;
     top: 50%;
     left: 75%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
+}
+
+.names {
+    text-align: center;
 }
 
 .artikel {
@@ -16,8 +23,8 @@
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     display: inline;
+    margin-left: 36%;
 }
-
 .header-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -39,10 +46,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 .container-fluid {
     padding: 0px !important;
+    background-color: #f7f7f7;
 }
 
 .title {
@@ -50,6 +56,7 @@
     text-align: left;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
+    margin-left: 50px;
 }
 
 .broodtekst {
@@ -57,7 +64,9 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    line-height: 30px;
     line-height: 190%;
+    margin-left: 50px;
 }
 
 .size {
@@ -68,6 +77,7 @@
 .principes-text {
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    line-height: 30px;
 }
 
 .nav-item {
@@ -75,8 +85,9 @@
 }
 
 .afbeelding {
-    background-color: #c9c9c9;
-    padding: 140px;   
+    background-color: #ffffff;
+    padding: 100px;   
+    margin-top: 25px;
 }
 
 .tools {
@@ -124,7 +135,7 @@
 }
 
 .background {
-    padding: 0 0 75px 0px;
+    padding: 0 0 75px 0px !important;
 }
 
 .padding {
@@ -133,4 +144,5 @@
 
 .center {
     vertical-align: middle;
+    padding: 80px;
 }
