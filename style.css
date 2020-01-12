@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet');
+@import "css/header.css";
+@import "css/image.css";
+@import "css/tools.css";
+@import "css/titles.css";
+@import "css/easing.css";
+@import "css/inspiration.css";
+@import "css/to-work.css";
 
 .h5 {
     margin-bottom: 1.5rem !important;
@@ -6,7 +13,7 @@
 }
 
 .container-fluid {
-    padding: 0px !important;
+    padding: 0 !important;
     background-color: #f7f7f7;
 }
 
@@ -21,79 +28,18 @@
     transform: translate(-50%, -50%);
 }
 
-.artikel {
-    background-color: #ECECEC;
-    border-radius: 50px;
-    padding: 15px 35px 15px 35px;
-    text-align: center;
-    color: #4A4A4A;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    display: inline;
-    margin-left: 36%;
-}
-
-.header-title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    color: #FB9467;
-    font-size: 75px;
-    line-height: normal;
-    padding: 40px;
-}
-
-.names {
-    text-align: center;
-}
-
-.by {
-    color: #A4A4A4;
-    padding-right: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
 .text-color {
     color: #4A4A4A;
     font-family: 'Poppins', sans-serif;
 }
 
 .padding {
-    padding: 0% 15%;
+    padding: 0 15%;
 }
 
 .nav {
     margin-bottom: 90px;
     padding-top: 40px;
-}
-
-.title {
-    color: #FB9467;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    margin-left: 50px;
-}
-
-.broodtekst {
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 30px;
-    margin-left: 50px;
-}
-
-.afbeelding {
-    background-color: #ffffff;
-    padding: 100px;   
-    margin-top: 30px;
-}
-
-.afbeelding-rechts {
-    background-color: #ffffff;
-    padding: 112px 100px;
-    margin-top: 30px;
 }
 
 .icons {
@@ -114,7 +60,7 @@
 .quote {
     text-align: center;
     color: #ffffff;
-    padding: 0px;
+    padding: 0;
     max-width: 100%;
     position: absolute;
     top: 50%;
@@ -122,22 +68,37 @@
     transform: translate(-50%, -50%);
 }
 
-.vl1 {
-    border-left: 6px solid;
-    border-color: #FB9467;
-    height: 100px;
-    position: absolute;
-    margin-right: 30px;
-}
-
 .size {
     height: auto;
     max-width: 100%;
 }
 
-.center {
+.center-outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.center-middle {
+    display: table-cell;
     vertical-align: middle;
-    padding: 80px;
+}
+
+.center-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.principes-header {
+    margin-bottom: -150px !important;
+}
+
+#principlesSection {
+    padding-top: 150px !important;
 }
 
 .principes-text {
@@ -153,15 +114,15 @@
     background-color: #4A4A4A;
 }
 
-.text-block {
-    background-color: #FB9467;
-    padding: 60px;
-    color: #ffffff;
-    float: right;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+.background {
+    padding: 0 0 75px 0 !important;
 }
 
-.background {
-    padding: 0 0 75px 0px !important;
+.easing {
+    padding-top: 170px;
+    padding-bottom: 30px;
+}
+
+.text-centered {
+    text-align: center;
 }
