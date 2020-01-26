@@ -6,7 +6,6 @@
 @import "css/easing.css";
 @import "css/inspiration.css";
 @import "css/to-work.css";
-@import "css/principes.css";
 
 .h5 {
     margin-bottom: 1.5rem !important;
@@ -45,7 +44,7 @@
 
 .icons {
     padding: 30px;
-    width: 50%;
+    width: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -55,6 +54,7 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 16px;
+
 }
 
 .quote {
@@ -93,6 +93,22 @@
     width: 70%;
 }
 
+.principes-header {
+    margin-bottom: -150px !important;
+}
+
+#principlesSection {
+    padding-top: 150px !important;
+}
+
+.principes-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
+}
+
 .carousel-inner {
     align-content: center;
     background-color: #4A4A4A;
@@ -100,6 +116,11 @@
 
 .background {
     padding: 0 0 75px 0 !important;
+}
+
+.easing {
+    padding-top: 170px;
+    padding-bottom: 30px;
 }
 
 .text-centered {
